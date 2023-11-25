@@ -1,5 +1,5 @@
-let player = "Goku";
-let xp=8001;
+let player = prompt("Insert your hero's name:")
+let xp=parseInt(prompt("Insert your "+ player + "'s XP:"));
 let nivel="";
 
 if(xp<1000){
